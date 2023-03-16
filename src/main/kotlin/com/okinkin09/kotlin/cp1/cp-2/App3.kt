@@ -1,7 +1,7 @@
 package com.okinkin09.kotlin.cp1.`cp-2`
 fun main() {
     print("Masukkan kalimat: ")
-    val sentenceWithDoubleQuotes = readLine()!!
-    val sentenceWithSingleQuotes = sentenceWithDoubleQuotes.replace("\"", "' '")
-    println(sentenceWithSingleQuotes)
+    val kalimat = readLine()!!
+    val Kalimat = kalimat.replace("\"", "' '")
+    println(Kalimat)
 }
