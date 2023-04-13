@@ -34,11 +34,11 @@ fun main() {
 
     for (i in 1..max) {
         if (isEmirp(i)) {
-            println("case #$i: emirp number ")
+            println("$i is emirp number ")
         } else if (isPrime(i)) {
-            println("case #$i: prime number ")
+            println("$i is prime number ")
         } else {
-            println("case #$i: not a prime number")
+            println("$i is not a prime number")
         }
     }
 }
